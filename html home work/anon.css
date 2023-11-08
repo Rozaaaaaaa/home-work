@@ -1,0 +1,261 @@
+.header-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-social-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: black;
+
+}
+
+
+
+.header-main {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 3px;
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+
+.header-main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-style: groove hidden ridge;
+    border-left-width: 20px;
+    align-items: center;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: flex-start;
+
+}
+
+.header-main-search {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    border-color: gray;
+
+
+
+}
+
+.header-main-search-bar {
+    width: 600px;
+    border-right: none;
+    background-color: white;
+    border-color: gray;
+}
+
+.search-button {
+    border-left: none;
+    background-color: white;
+    height: 21px;
+    border-color: gray;
+}
+
+.header-main-actions {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.header-main-actions>a {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.nav-categories-list {
+    display: flex;
+    list-style-type: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+
+
+}
+
+
+.nav-categories-list>li {
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-categories-list>a {
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.social-link {
+    background-color: rgb(227, 226, 226);
+    border-radius: 5px;
+    margin: 2px;
+    height: 17px;
+    padding: 2px;
+    color: gray;
+
+}
+
+.bear {
+    color: gray;
+    margin: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+
+/* jkhiuhuhu */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 1460px;
+    height: 400px;
+
+
+}
+
+.container .btn {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    background-color: #f9a3a3;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+.top-left {
+    position: absolute;
+    top: 20%;
+    left: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(221, 129, 145);
+}
+
+.modern {
+    position: absolute;
+    top: 30%;
+    left: 200px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.dollar {
+    position: absolute;
+    top: 46%;
+    left: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(104, 99, 99);
+}
+
+
+
+
+/* ooooooooooooooooooooo */
+
+
+
+.category-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.category-item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 93%);
+    border-radius: 10px;
+}
+
+.category-img-box {
+    background: white;
+    border: 1px solid hsl(0, 0%, 80%);
+    padding: 10px;
+    border-radius: 5px;
+    width: 30px;
+}
+
+.category-content-box {
+    width: 100%;
+}
+
+.category-content-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.category-item-title {
+    color: hsl(0, 0%, 13%);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.category-item-amount {
+    color: hsl(0, 0%, 47%);
+    font-size: 12px;
+    margin: 0px;
+}
+
+.category-btn {
+    color: hsl(353, 100%, 78%);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+}
