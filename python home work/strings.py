@@ -143,7 +143,7 @@ print(f"The position of the last occurrence of 'l' in the string is: {result}")
 
 
 
-task 23
+#task 23
 company = 'You cannot end a sentence with because because because is a conjunction'
 result = company.index('because')  # we can use index or find
 print(result)
