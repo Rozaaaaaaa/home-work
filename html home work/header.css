@@ -1,0 +1,93 @@
+.Free_Courses {
+    text-align: center;
+    align-items: center;
+    background-color: orange;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.navigation {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.image {
+    width: 33px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.home a {
+    font-size: 15px;
+    text-decoration: none; 
+    margin-right: 180px;
+   
+    color: black;
+}
+
+.sign_up a {
+    font-size: 15px;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin: 15px;
+    
+}
+
+.login {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: orange;
+    text-decoration: none; 
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #fafafa; /* Red */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+   /* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+      
+    }
+  }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+   
+
+    .page {
+      width: 960px;
+      margin: 0 auto;
+    }
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 33.3%;
+    }
+    .header {
+      height: 400px;
+    }
+  }
