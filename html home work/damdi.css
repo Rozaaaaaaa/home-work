@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(235, 229, 229);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+
+}
+
+.damdi {
+
+  text-align: center;
+
+  color: rgb(96, 92, 92);
+  font-family: sans-serif;
+
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 5px;
+
+  font-family: sans-serif;
+
+}
+
+.section a {
+  text-decoration: none;
+  color: gray;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+.text h1 {
+  color: rgb(156, 114, 35);
+  font-size: 50px;
+}
+
+.text h4 {
+  font-size: 20px;
+  color: rgb(24, 23, 23);
+}
+
+.food {
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  margin-left: 400px;
+
+}
+
+
+.btn {
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+  border-radius: 5px;
+  background-color: rgb(155, 111, 28);
+  padding: 10px;
+}
+
+.about {
+  display: flex;
+
+  justify-content: space-evenly;
+  margin-left: 400px;
+
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.letter {
+  margin: 100px;
+}
+
+.btn_2 {
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+  border-radius: 5px;
+  background-color: rgb(155, 111, 28);
+  padding: 15px;
+
+}
+
+.ceremet {
+  text-align: center;
+
+}
+
+.ceremet h5 {
+  font-family: sans-serif;
+  color: rgb(165, 119, 34);
+}
+
+.ceremet h2 {
+  font-family: sans-serif;
+}
+
+
+
+
+
+.offer {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px;
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+.service {
+  text-align: center;
+}
+
+.fast_food {
+  text-align: center;
+}
+
+.deliver {
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.menu h5 {
+  color: rgb(165, 119, 34);
+}
+
+.tagam {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+
+}
+
+.tagam h5 {
+  color: gray;
+}
+
+.besh {
+
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(241, 237, 237);
+  width: 120px;
+  height: 210px;
+}
+
+.manty {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(249, 245, 245);
+  width: 120px;
+  height: 210px;
+}
+
+.plov {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(249, 244, 244);
+  width: 120px;
+  height: 210px;
+}
+
+
+
+
+
+
+
+
