@@ -1,178 +1,137 @@
-body {
-  background-color: rgb(235, 229, 229);
+header{
+  position: fixed;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
+.nav-list {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
   color: black;
-  text-decoration: none;
-  margin: 20px;
-
-}
-
-.damdi {
-
-  text-align: center;
-
-  color: rgb(96, 92, 92);
-  font-family: sans-serif;
-
-}
-
-.section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  padding: 5px;
-
-  font-family: sans-serif;
-
-}
-
-.section a {
-  text-decoration: none;
-  color: gray;
-}
-
-.text {
-  font-family: sans-serif;
-}
-
-.text h1 {
-  color: rgb(156, 114, 35);
-  font-size: 50px;
-}
-
-.text h4 {
-  font-size: 20px;
-  color: rgb(24, 23, 23);
-}
-
-.food {
-  display: flex;
-  margin: 0px;
-  align-items: center;
-  margin-left: 400px;
-
-}
-
-
-.btn {
-  text-decoration: none;
-  color: rgb(242, 242, 242);
-  border-radius: 5px;
-  background-color: rgb(155, 111, 28);
   padding: 10px;
 }
 
-.about {
+.nav-list li {
+  display: inline;
+  padding-right: 10px;
+}
+
+nav {
+  display: none;
+}
+
+header p {
+  display: inline;
+  position: relative;
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+}
+
+.banner,
+.about-us {
   display: flex;
+  flex-direction: column;
+}
 
-  justify-content: space-evenly;
-  margin-left: 400px;
-
+.banner-texts {
   font-family: sans-serif;
-  align-items: center;
+
 }
 
-.letter {
-  margin: 100px;
-}
-
-.btn_2 {
-  text-decoration: none;
-  color: rgb(242, 242, 242);
+.banner-texts button {
+  background-color: rgb(170, 118, 21);
+  padding: 10px;
   border-radius: 5px;
-  background-color: rgb(155, 111, 28);
-  padding: 15px;
-
+  color: rgb(245, 233, 233);
 }
 
-.ceremet {
+.about-us {
+  flex-direction: column-reverse;
+  font-family: sans-serif;
+}
+
+.about-us-texts {
   text-align: center;
+}
+
+.about-us-texts button {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
 
 }
 
-.ceremet h5 {
-  font-family: sans-serif;
-  color: rgb(165, 119, 34);
+.about-us img {
+  margin: 16px;
 }
 
-.ceremet h2 {
-  font-family: sans-serif;
-}
-
-
-
-
-
-.offer {
+.offers {
   display: flex;
-  justify-content: space-around;
-  margin: 70px;
-  font-family: sans-serif;
-  padding: 50px;
-}
-
-.service {
-  text-align: center;
-}
-
-.fast_food {
-  text-align: center;
-}
-
-.deliver {
-  text-align: center;
-}
-
-.menu {
-  text-align: center;
+  flex-direction: column;
   font-family: sans-serif;
 }
 
-.menu h5 {
-  color: rgb(165, 119, 34);
+.offer-title {
+  text-align: center;
 }
+
+.offer-card {
+  width: 100%;
+  text-align: center;
+}
+
+.week_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: sans-serif;
+
+}
+
 
 .tagam {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgb(250, 250, 250);
+  width: 120px;
+  height: 210px;
+
+}
+
+.talking {
+  display: inline;
+  text-align: center;
+  align-items: center;
+  margin: 30px;
   font-family: sans-serif;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
+}
+
+.talking button {
+  border-radius: 8px;
+  background-color: orange;
+  width: 200px;
+  padding: 10px;
+}
+
+.facts {
+  font-family: sans-serif;
 
 }
 
-.tagam h5 {
-  color: gray;
+.delicious {
+  padding: 15px;
 }
 
-.besh {
-
-  border-radius: 5px;
-  padding: 20px;
-  background-color: rgb(241, 237, 237);
-  width: 120px;
-  height: 210px;
+.hand {
+  padding: 10px;
 }
 
-.manty {
-  border-radius: 5px;
-  padding: 20px;
-  background-color: rgb(249, 245, 245);
-  width: 120px;
-  height: 210px;
-}
-
-.plov {
-  border-radius: 5px;
-  padding: 20px;
-  background-color: rgb(249, 244, 244);
-  width: 120px;
-  height: 210px;
+.rstn h2 {
+  font-family: sans-serif;
+  color: rgb(174, 121, 23);
 }
 
 
@@ -182,3 +141,70 @@ body {
 
 
 
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1500px) {
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
+  header{
+    position: sticky;
+  }
+  nav {
+    display: inline;
+    position: absolute;
+    right: 0px;
+  }
+
+  .banner,
+  .about-us,
+  .offers,
+  .btn {
+    flex-direction: row;
+  }
+
+  .banner {
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .offer-card {
+    width: 33%;
+  }
+
+  .week_menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .talking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    font-family: sans-serif;
+
+  }
+
+  .costumer {
+    text-align: left;
+  }
+
+  .talking button {
+    border-radius: 8px;
+    background-color: orange;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .delicious {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+  }
+
+}
