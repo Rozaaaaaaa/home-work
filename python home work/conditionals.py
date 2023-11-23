@@ -1,4 +1,45 @@
 #Home work
+#LEVEL 1
+#task 1
+age=(int(input("Enter your age: ")))
+if age <0:
+    if age < -0:
+        print("Its error")
+elif age >=19:
+    print("You're old enough to learn to drive")
+else:
+    print(f"You need {18-age} years to learn to drive")  
+
+
+
+
+#task 2
+age=(int(input("Enter your age: ")))
+if age > 0 and age >=18:
+    print("you're old enough to learn to drive  ")
+elif age >0 and age <18:
+    print(f"you need {18-age} years to leran to drive ")
+else:
+    print("Age should be greater than zero") 
+
+
+
+
+#task 3
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+if num1 > num2: 
+    print("num1 is greater than num2")
+elif num1 < num2:
+    print("num1 is smaller than num2")
+else:
+    print("num1 is equal than to num2")
+
+
+
+#LEVEL 2
+
 #task 1 Write a code which gives grade to students according th their scores:
 
 student=int(input("Enter your scores: "))
